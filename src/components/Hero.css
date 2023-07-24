@@ -1,0 +1,67 @@
+.hero--container {
+    display: flex;
+    justify-content: center;
+    width: 85vw;
+    height: 80vh;
+}
+
+
+.hero--tagline {
+    font-size: 4rem;
+    margin-top: 30%;
+}
+
+
+.hero--buttons a {
+    text-decoration: underline; 
+    color: #333; 
+}
+  
+.hero--buttons a:visited {
+    color: #333; 
+}
+
+.nav--leetcode {
+    height: 1.5rem;
+}
+
+.hero--profile {
+    margin-left: 8%;
+    align-self: center;
+    height: 85%;
+}
+
+
+.hero--description {
+    font-size: 1.5rem;
+}
+
+
+.hero--resume {
+
+    padding: 0.7rem 1.8rem;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-size: 1.2rem;
+}
+
+.share {
+    position: absolute;
+    left: 6.7rem;
+    box-shadow: darkslategrey;
+}
+
+.hero--buttons {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    height: 3rem;
+    position: relative;
+}
+
+
+.hero--contact {
+    font-size: 1.5rem;
+}
+
