@@ -6,7 +6,7 @@ export default function Skill(props) {
     <motion.div 
       whileHover={ {scale : 1.1 ,  boxShadow: '0px 0px 8px rgba(0, 0, 0, 0.4)' }}
       className= {`skill ${props.skill}`}>
-        <img src={`./assets/${props.skill}.png`} className={`${props.skill}`} />
+        <img src={`../assets/${props.skill}.png`} className={`${props.skill}`} />
     </motion.div>
   )
 }
