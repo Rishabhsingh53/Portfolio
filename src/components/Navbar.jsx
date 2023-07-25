@@ -2,11 +2,10 @@ import React, { useState } from 'react'
 import {motion} from "framer-motion"
 import { Link } from 'react-router-dom';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import leetcode from "../assets/leetcode.svg"
+import leetcode from "/leetcode.svg"
 import "./Navbar.css"
 
 export default function Navbar() {
-
   return (
     <div className="nav--container">
         <div className="nav--left">

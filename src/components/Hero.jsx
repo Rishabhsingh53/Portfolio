@@ -1,7 +1,7 @@
 import React from 'react';
 import {motion} from "framer-motion";
-import profile from "../assets/profile.png";
-import share from "../assets/share.png";
+import profile from "/profile.png";
+import share from "/share.png";
 import "./Hero.css";
 import { Link } from 'react-router-dom';
 
