@@ -5,12 +5,10 @@ import "./Contact.css";
 export default function Contact  () {
   const form = useRef();
 
-
-
   const sendEmail = (e) => {
     e.preventDefault();
     if (!e.target[0].user_name || e.target[1].user_email || !e.target[2].message) {
-      // Handle validation errors here (e.g., display error messages to the user)
+      // Displaying appropriate text on the page
       console.log('Please fill in all fields.');
       return;
     }
@@ -35,8 +33,8 @@ export default function Contact  () {
           <input type="email" name="user_email" />
           <label>Message</label>
           <textarea name="message" rows={7} cols={50} />
-        <input type="submit" value="Send" />
-      </form>
+          <input type="submit" value="Send" className='submit--btn' />
+        </form>
       </div>
     </div>
   );

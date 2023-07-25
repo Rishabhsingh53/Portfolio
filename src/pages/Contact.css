@@ -1,11 +1,18 @@
 .parent {
     font-family: 'Poppins', sans-serif;
+    background-color: #040303;
+    color: white ;
+    height: 94.5vh;
+    width: 100vw;
 }
 
 .heading {
     text-align: center;
-    margin-top: 3%;
+    padding-top: 5rem;
     margin-bottom: 4%;
+    margin-top: 0;
+    font-size: 3rem;
+    font-weight: bold;
 }
 
 .contact--container {
@@ -20,4 +27,46 @@ form {
     gap : 0.5rem;
     width: 25vw;
     height: 50vh;   
+    font-size: 1rem;
+}
+
+form input {
+    text-indent: 0.2rem;
+    padding: 0.5rem;
+}
+/* Style for the submit button */
+.submit--btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: orange    ;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  /* Button hover effect */
+  .submit--btn:hover {
+    background-color: orange;
+  }
+  
+  /* Button focus effect (optional, but recommended for accessibility) */
+  .submit--btn:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Button active effect (when clicked) */
+  .submit--btn:active {
+    background-color: #003a80;
+  }
+  
+
+input:focus , textarea {
+    outline: none; /* Remove default focus outline */
+  border-color: orange; /* Change border color on focus */
+  box-shadow: 1 1 5px orange(0, 123, 255, 0.5); /* Add a subtle box shadow */
+  background-color: #f0f0f0; /* Change background color */
+  color: #333; /* Change text color */
 }

@@ -1,9 +1,10 @@
 .skills--parent {
     display: flex;
-    width: 97vw;
-    height: 100vh;
+    width: 99vw;
+    height: 94.5vh;
     justify-content: center;
     align-items: center;
+    background-color: #040303;
 }
 
 .skills--container {
@@ -29,9 +30,8 @@
     border-radius: 50%;
     background-color: #f1f1f1;
 }
-
-.framer , .mongodb{
-    mix-blend-mode:multiply;
+.framer--img , .mongodb--img{
+    border-radius: 50%;
 }
 /* 
 .firebase {
