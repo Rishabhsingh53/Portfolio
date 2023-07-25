@@ -1,9 +1,7 @@
 import React from 'react'
 import {motion} from "framer-motion"
 import Skill from '../components/Skill'
-
 import "./Skills.css"
-
 export default function Skills() {
   const skills = ["react","redux","node","python","cpp","javascript","css","git","mongodb","framer"];
 

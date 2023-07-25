@@ -1,6 +1,5 @@
 import React from 'react'
 import {motion} from "framer-motion";
-
 export default function Skill(props) {
   return (
     <motion.div 

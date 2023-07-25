@@ -4,6 +4,7 @@
     font-family: "YouTube Noto", Roboto, Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
+    background-color: black;
 }
 
 .nav--left ul {
@@ -27,6 +28,6 @@
 }
   
 .nav--left li a:visited {
-    color: #333; 
+    color: white; 
 }
 

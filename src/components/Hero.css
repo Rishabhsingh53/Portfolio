@@ -1,9 +1,15 @@
+.hero--parent {
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
 .hero--container {
     display: flex;
     justify-content: center;
     width: 85vw;
     height: 80vh;
 }
+
 
 
 .hero--tagline {
