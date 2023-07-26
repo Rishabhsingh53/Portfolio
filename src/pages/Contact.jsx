@@ -15,6 +15,7 @@ export default function Contact  () {
     emailjs.sendForm('service_ouonbsc', 'template_laevjun', form.current, 'HvEwxezUqPkwXcSX9')
       .then((result) => {
           console.log(result.text);
+          alert ("Darshan");
           console.log(e)
           console.log(e.target)
           e.target.reset()
