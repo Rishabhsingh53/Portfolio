@@ -4,7 +4,6 @@ import "./Contact.css";
 
 export default function Contact  () {
   const form = useRef();
-
   const sendEmail = (e) => {
     e.preventDefault();
     if (!e.target[0].user_name || e.target[1].user_email || !e.target[2].message) {
@@ -21,7 +20,7 @@ export default function Contact  () {
       }, (error) => {
           console.log(error.text);
       });
-  };
+  };  
   return (
     <div className="parent">
       <h1 className='heading'>GET IN CONTACT</h1>

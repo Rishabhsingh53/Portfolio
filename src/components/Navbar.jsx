@@ -38,10 +38,12 @@ export default function Navbar() {
                 </motion.li>
             </ul>
         </div>
-        <div className="nav--right">
+        <div className="nav--right" >
             <img           
+              style={{color: "white"}}
               className='nav--leetcode'        
               // whileTap={{scale : 1.2}}
+              
               // whileHover={{textDecoration: "underline"}} 
               src={leetcode} 
               />
